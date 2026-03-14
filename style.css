@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "inter", sans-serif;
+}
+
+.title {
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.container {
+    background-color: #1B6073;
+    border-radius: 5px;
+    padding: 20px 40px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+
+}
+
+.card > img {
+    width: 100%;
+    height: auto;
+}
+
+.card .productName{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.card .productPrice {
+    font-size: 20px;
+    font-weight: bold;
+    color: #2c6b9e;
+    margin-bottom: 20px;
+}
+
+.button {
+    background-color: #db8f51;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 20px;
+    display: block;
+    text-align: center;
+}
